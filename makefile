@@ -1,4 +1,4 @@
-.PHONY: all
+.PHONY: all build
 
 build: ./content/slides.yml
-	@ruby ./generate-presentation.rb $<
+	@ruby ./generate.rb $<

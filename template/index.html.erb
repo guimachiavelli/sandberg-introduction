@@ -19,6 +19,10 @@
 				width: 100%;
 			}
 
+            body {
+                overflow: hidden;
+            }
+
             .page {
                 box-sizing: border-box;
                 width: 100%;
@@ -35,13 +39,27 @@
 
             .page[aria-hidden=true] {
                 opacity: 0;
+                pointer-events: none;
             }
+
+            img {
+                display: block;
+                width: auto;
+                height: 95%;
+            }
+
+            h1, h2, h3, p {
+                font-size: 48px;
+                line-height: 1.25;
+            }
+
 		</style>
 	
 	</head>
     <body>
         <%= @output %>
 
+        <script src="https://www.youtube.com/iframe_api"></script>
         <script>
             (function(){
                 var slideshow = {

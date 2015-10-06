@@ -1,13 +1,13 @@
 ---
-- text: through the eyes of internet quizzes
+- text: Can we guess who you are in just 10 questions?
   tag: h1
 
-- text: name
+- text: Name
   tag: h2
 
 - text: What Is Your REAL Name?
 
-- text: What your fav. color? (blue)
+- text: What your fav. color?
   illustration: real-blue.jpg
 
 - text: What fashion are you?
@@ -16,126 +16,94 @@
 - text: Do you like having fun?
   illustration: real-fun.jpg
 
-- text: result
-  illustration: real-heather.jpg
+- illustration: real-heather.jpg
 
 - text: Age and gender
   tag: h2
 
-- text: “Can We Guess Your Age And Gender From These 10 Questions?” and “Can We Guess Your Age And Where You Live Based On Your Taste In Music?”.
+- text: Can We Guess Your Age And Gender From These 10 Questions? and Can We Guess Your Age And Where You Live Based On Your Taste In Music?
 
-- text: Pick a cartoon character
-  illustration: age-spongebob.jpg
+- illustration: age-spongebob.jpg
 
-- text: Pick a sunday afternoon film
-  illustration: age-diehard.jpg
+- illustration: age-diehard.jpg
 
-- text: Which song makes you move your butt?
-  illustration: age-anaconda.jpg
-  video: https://youtu.be/LDZX4ooRsWs?t=18
+- illustration: age-anaconda.jpg
 
-- text: result
-  illustration: real-lateteens.jpg
+- video: https://www.youtube.com/embed/LDZX4ooRsWs?start=18
 
-- text: Soul age
-  tag: h2
-
-- text: When Was Your Soul Born?
-
-- text: What do you think happens when we die? (nothing)
-  illustration: soul-nothing.jpg
-
-- text: Choose a feast
-  illustration: soul-sushi.jpg
-
-- text: result
-  illustration: soul-renaissance.jpg
+- illustration: age-lateteens.jpg
 
 - text: Where I am from
   tag: h2
 
 - text: Can Your Favorite Colors Reveal Where You Are From?
 
-- text: Choose the basic colour that attracts you
-  illustration: where-blue1.jpg
+- illustration: where-blue1.jpg
 
-- text: Which bright colour is your favourite?
-  illustration: where-blue2.jpg
+- illustration: where-blue2.jpg
 
-- text: Which of these dark colours is the best?
-  illustration: where-black.jpg
+- illustration: where-black.jpg
 
-- text: result
-  illustration: where-italy.jpg
+- illustration: where-italy.jpg
 
 - text: Where I should live
   tag: h2
 
 - text: What Country Best Suits Your Personality?
 
-- text: what activity puts your mind at ease?
-  illustration: country-cuddling.jpg
+- illustration: country-cuddling.jpg
 
-- text: What word best describes your favourite food?
-  illustration: country-spicy.jpg
+- illustration: country-spicy.jpg
 
-- text: Choose a reimagined disney princess
-  illustration: country-aurora.jpg
+- illustration: country-aurora.jpg
 
-- text: result
-  illustration: country-england.jpg
+- illustration: country-england.jpg
 
-- text: What is my profession
+- text: What I do
   tag: h2
 
 - text: Can we guess your profession?
 
-- text: What's your biggest workplace pet peeve
-  illustration: profession-chewer.jpg
+- illustration: profession-chewer.jpg
 
-- text: Where should you vacation?
-  illustration: profession-italy.jpg
+- illustration: profession-italy.jpg
 
-- text: How do you unwind after work?
-  illustration: profession-read.jpg
+- illustration: profession-henchman.jpg
 
-- text: result
-  illustration: profession-wine.jpg
+- illustration: profession-wine.jpg
 
-- text: The profession I want
+- text: What I should do
   tag: h2
 
 - text: What career should you actually have
 
-- text: Pick a trilogy
-  illustration: career-trilogy.jpg
+- illustration: career-trilogy.jpg
 
-- text: What would you bring on a desert island
-  illustration: career-kindle.jpg
+- illustration: career-kindle.jpg
 
-- text: Pick a genre
-  illustration: career-documentary.jpg
+- illustration: career-documentary.jpg
 
-- text: result
-  illustration: career-professor.jpg
+- illustration: career-professor.jpg
 
 - text: My spirit drag queen
   tag: h2
 
-- text: Pick a drag race sponsor
-  illustration: drag-interior.jpg
+- text: Which Winner Of “RuPaul’s Drag Race” Are You?
 
-- text: Pick a michelle visage
-  illustration: drag-michelle.jpg
+- illustration: drag-interior.jpg
 
-- text: What's your favourite rupaul song?
-  illustration: drag-song.jpg
-  video: https://youtu.be/M4d20Tyzlv0?t=53
+- illustration: drag-michelle.jpg
 
-- text: result
-  illustration: drag-violet.jpg
+- illustration: drag-song.jpg
+
+- video: https://www.youtube.com/embed/M4d20Tyzlv0?start=53
+
+- illustration: drag-violet.jpg
+
+- text: I am an italian girl in her late teens called Heather. I am a wine taster but want to be a professor and live in England. My spirit drag queen is Violet Chatchki.
 
 - text: Thank you
-  video: https://youtu.be/_S3YFhlEakg?t=156
+
+- video: https://www.youtube.com/embed/_S3YFhlEakg?start=156
 
 

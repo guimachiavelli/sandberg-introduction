@@ -1,7 +1,9 @@
 require 'erb'
 require 'yaml'
+require 'fileutils'
 
 BUILD_DIR = File.expand_path './build'
+IMAGES_DIR = File.expand_path './content/imgs/.'
 
 def generate(file)
     setup
@@ -11,10 +13,17 @@ def generate(file)
 
     filename = File.expand_path('./build/index.html')
     File.write(filename, presentation)
+    copy_images
 end
 
 def setup
+    build_images = File.join(BUILD_DIR, 'imgs')
     Dir.mkdir(BUILD_DIR) unless Dir.exist?(BUILD_DIR)
+    Dir.mkdir(build_images) unless Dir.exist?(build_images)
+end
+
+def copy_images
+    FileUtils.cp_r(IMAGES_DIR, BUILD_DIR)
 end
 
 def parsed_file(file)
@@ -40,6 +49,10 @@ def assembled_slide(slide)
 
     if !slide['illustration'].nil?
         html += "<img src='imgs/#{slide['illustration']}' alt=''>"
+    end
+
+    if !slide['video'].nil?
+        html += "<iframe width='100%' height='100%' src='#{slide['video']}' frameborder='0' allowFullScreen></iframe>"
     end
 
     html
