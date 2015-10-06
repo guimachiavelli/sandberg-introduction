@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	
+		<title>gui machiavelli sandberg presentation</title>
+		<meta name="description" content="gui machiavelli presentation 08/10/2015">
+	
+		<meta name="viewport" content="width=device-width">
+
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+
+			html, body {
+				height: 100%;
+				width: 100%;
+			}
+
+            .page {
+                box-sizing: border-box;
+                width: 100%;
+                height: 100%;
+                padding: 5em;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+
+            .page[aria-hidden=false] {
+                opacity: 1;
+            }
+
+            .page[aria-hidden=true] {
+                opacity: 0;
+            }
+		</style>
+	
+	</head>
+    <body>
+        <%= @output %>
+
+        <script>
+            (function(){
+                var slideshow = {
+                    init: function() {
+                        this.pages = document.querySelectorAll('.page');
+
+                        this.length = this.pages.length;
+                        this.current = 0;
+
+                        this.hideAllSlides(this.pages);
+                        this.bind();
+                    },
+
+                    bind: function() {
+                        window.addEventListener('keyup', this.navigate.bind(this));
+                    },
+
+                    navigate: function(e) {
+                        var key, direction;
+
+                        key = e.keyCode;
+
+                        if (key !== 37 && key !== 39) {
+                            return;
+                        }
+
+                        direction = key === 37 ? -1 : 1;
+
+                        this.update(direction);
+                    },
+
+                    update: function(direction) {
+                        var next = this.current + direction;
+
+                        if (next >= this.length || next < 0) {
+                            return;
+                        }
+
+                        this.hideSlide(this.pages[this.current]);
+                        this.showSlide(this.pages[next]);
+
+                        this.current = next;
+                    },
+
+                    hideAllSlides: function(pages) {
+                        var i, len;
+
+                        for (i = 0, len = pages.length; i < len; i += 1) {
+                            this.hideSlide(pages[i]);
+                        }
+                        this.showSlide(pages[0]);
+                    },
+
+                    hideSlide: function(node) {
+                        node.setAttribute('aria-hidden', 'true');
+                    },
+
+                    showSlide: function(node) {
+                        node.setAttribute('aria-hidden', 'false');
+                    }
+
+                }
+
+                slideshow.init();
+            }());
+        </script>
+    </body>
+</html>

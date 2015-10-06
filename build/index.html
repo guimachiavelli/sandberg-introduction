@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	
+		<title>gui machiavelli sandberg presentation</title>
+		<meta name="description" content="gui machiavelli presentation 08/10/2015">
+	
+		<meta name="viewport" content="width=device-width">
+
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+
+			html, body {
+				height: 100%;
+				width: 100%;
+			}
+
+            .page {
+                box-sizing: border-box;
+                width: 100%;
+                height: 100%;
+                padding: 5em;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+
+            .page[aria-hidden=false] {
+                opacity: 1;
+            }
+
+            .page[aria-hidden=true] {
+                opacity: 0;
+            }
+		</style>
+	
+	</head>
+    <body>
+        <div tabindex='0' class='page'><h1>through the eyes of internet quizzes</h1></div><div tabindex='0' class='page'><h2>name</h2></div><div tabindex='0' class='page'><p>What Is Your REAL Name?</p></div><div tabindex='0' class='page'><p>What your fav. color? (blue)</p><img src='imgs/real-blue.jpg' alt=''></div><div tabindex='0' class='page'><p>What fashion are you?</p><img src='imgs/real-2.jpg' alt=''></div><div tabindex='0' class='page'><p>Do you like having fun?</p><img src='imgs/real-fun.jpg' alt=''></div><div tabindex='0' class='page'><p>result</p><img src='imgs/real-heather.jpg' alt=''></div><div tabindex='0' class='page'><h2>Age and gender</h2></div><div tabindex='0' class='page'><p>“Can We Guess Your Age And Gender From These 10 Questions?” and “Can We Guess Your Age And Where You Live Based On Your Taste In Music?”.</p></div><div tabindex='0' class='page'><p>Pick a cartoon character</p><img src='imgs/age-spongebob.jpg' alt=''></div><div tabindex='0' class='page'><p>Pick a sunday afternoon film</p><img src='imgs/age-diehard.jpg' alt=''></div><div tabindex='0' class='page'><p>Which song makes you move your butt?</p><img src='imgs/age-anaconda.jpg' alt=''></div><div tabindex='0' class='page'><p>result</p><img src='imgs/real-lateteens.jpg' alt=''></div><div tabindex='0' class='page'><h2>Soul age</h2></div><div tabindex='0' class='page'><p>When Was Your Soul Born?</p></div><div tabindex='0' class='page'><p>What do you think happens when we die? (nothing)</p><img src='imgs/soul-nothing.jpg' alt=''></div><div tabindex='0' class='page'><p>Choose a feast</p><img src='imgs/soul-sushi.jpg' alt=''></div><div tabindex='0' class='page'><p>result</p><img src='imgs/soul-renaissance.jpg' alt=''></div><div tabindex='0' class='page'><h2>Where I am from</h2></div><div tabindex='0' class='page'><p>Can Your Favorite Colors Reveal Where You Are From?</p></div><div tabindex='0' class='page'><p>Choose the basic colour that attracts you</p><img src='imgs/where-blue1.jpg' alt=''></div><div tabindex='0' class='page'><p>Which bright colour is your favourite?</p><img src='imgs/where-blue2.jpg' alt=''></div><div tabindex='0' class='page'><p>Which of these dark colours is the best?</p><img src='imgs/where-black.jpg' alt=''></div><div tabindex='0' class='page'><p>result</p><img src='imgs/where-italy.jpg' alt=''></div><div tabindex='0' class='page'><h2>Where I should live</h2></div><div tabindex='0' class='page'><p>What Country Best Suits Your Personality?</p></div><div tabindex='0' class='page'><p>what activity puts your mind at ease?</p><img src='imgs/country-cuddling.jpg' alt=''></div><div tabindex='0' class='page'><p>What word best describes your favourite food?</p><img src='imgs/country-spicy.jpg' alt=''></div><div tabindex='0' class='page'><p>Choose a reimagined disney princess</p><img src='imgs/country-aurora.jpg' alt=''></div><div tabindex='0' class='page'><p>result</p><img src='imgs/country-england.jpg' alt=''></div><div tabindex='0' class='page'><h2>What is my profession</h2></div><div tabindex='0' class='page'><p>Can we guess your profession?</p></div><div tabindex='0' class='page'><p>What's your biggest workplace pet peeve</p><img src='imgs/profession-chewer.jpg' alt=''></div><div tabindex='0' class='page'><p>Where should you vacation?</p><img src='imgs/profession-italy.jpg' alt=''></div><div tabindex='0' class='page'><p>How do you unwind after work?</p><img src='imgs/profession-read.jpg' alt=''></div><div tabindex='0' class='page'><p>result</p><img src='imgs/profession-wine.jpg' alt=''></div><div tabindex='0' class='page'><h2>The profession I want</h2></div><div tabindex='0' class='page'><p>What career should you actually have</p></div><div tabindex='0' class='page'><p>Pick a trilogy</p><img src='imgs/career-trilogy.jpg' alt=''></div><div tabindex='0' class='page'><p>What would you bring on a desert island</p><img src='imgs/career-kindle.jpg' alt=''></div><div tabindex='0' class='page'><p>Pick a genre</p><img src='imgs/career-documentary.jpg' alt=''></div><div tabindex='0' class='page'><p>result</p><img src='imgs/career-professor.jpg' alt=''></div><div tabindex='0' class='page'><h2>My spirit drag queen</h2></div><div tabindex='0' class='page'><p>Pick a drag race sponsor</p><img src='imgs/drag-interior.jpg' alt=''></div><div tabindex='0' class='page'><p>Pick a michelle visage</p><img src='imgs/drag-michelle.jpg' alt=''></div><div tabindex='0' class='page'><p>What's your favourite rupaul song?</p><img src='imgs/drag-song.jpg' alt=''></div><div tabindex='0' class='page'><p>result</p><img src='imgs/drag-violet.jpg' alt=''></div><div tabindex='0' class='page'><p>Thank you</p></div>
+
+        <script>
+            (function(){
+                var slideshow = {
+                    init: function() {
+                        this.pages = document.querySelectorAll('.page');
+
+                        this.length = this.pages.length;
+                        this.current = 0;
+
+                        this.hideAllSlides(this.pages);
+                        this.bind();
+                    },
+
+                    bind: function() {
+                        window.addEventListener('keyup', this.navigate.bind(this));
+                    },
+
+                    navigate: function(e) {
+                        var key, direction;
+
+                        key = e.keyCode;
+
+                        if (key !== 37 && key !== 39) {
+                            return;
+                        }
+
+                        direction = key === 37 ? -1 : 1;
+
+                        this.update(direction);
+                    },
+
+                    update: function(direction) {
+                        var next = this.current + direction;
+
+                        if (next >= this.length || next < 0) {
+                            return;
+                        }
+
+                        this.hideSlide(this.pages[this.current]);
+                        this.showSlide(this.pages[next]);
+
+                        this.current = next;
+                    },
+
+                    hideAllSlides: function(pages) {
+                        var i, len;
+
+                        for (i = 0, len = pages.length; i < len; i += 1) {
+                            this.hideSlide(pages[i]);
+                        }
+                        this.showSlide(pages[0]);
+                    },
+
+                    hideSlide: function(node) {
+                        node.setAttribute('aria-hidden', 'true');
+                    },
+
+                    showSlide: function(node) {
+                        node.setAttribute('aria-hidden', 'false');
+                    }
+
+                }
+
+                slideshow.init();
+            }());
+        </script>
+    </body>
+</html>
