@@ -1,11 +1,12 @@
 ---
-- text: Can we guess who you are in just 10 questions?
+- text: This test will determine who you are
   tag: h1
 
 - text: Name
   tag: h2
 
 - text: What Is Your REAL Name?
+  link: http://www.playbuzz.com/heatherb19/whats-your-true-name
 
 - text: What your fav. color?
   illustration: real-blue.jpg
@@ -21,22 +22,23 @@
 - text: Age and gender
   tag: h2
 
-- text: Can We Guess Your Age And Gender From These 10 Questions? and Can We Guess Your Age And Where You Live Based On Your Taste In Music?
+- text: Can We Guess Your Age And Gender From These 10 Questions?
+  link: http://www.buzzfeed.com/alexfinnis/who-am-i
 
 - illustration: age-spongebob.jpg
 
 - illustration: age-diehard.jpg
 
 - illustration: age-anaconda.jpg
-
-- video: https://www.youtube.com/embed/LDZX4ooRsWs?start=18
+  video: https://www.youtube.com/embed/LDZX4ooRsWs?start=18
 
 - illustration: age-lateteens.jpg
 
-- text: Where I am from
+- text: Where I come from
   tag: h2
 
 - text: Can Your Favorite Colors Reveal Where You Are From?
+  link: http://www.playbuzz.com/thelaststraw10/can-your-favorite-colors-reveal-where-you-are-from
 
 - illustration: where-blue1.jpg
 
@@ -50,6 +52,7 @@
   tag: h2
 
 - text: What Country Best Suits Your Personality?
+  link: http://www.buzzfeed.com/javiermoreno/what-country-matches-your-personality
 
 - illustration: country-cuddling.jpg
 
@@ -59,10 +62,11 @@
 
 - illustration: country-england.jpg
 
-- text: What I do
+- text: What I currently do
   tag: h2
 
 - text: Can we guess your profession?
+  link: http://www.buzzfeed.com/javiermoreno/can-we-guess-your-profession
 
 - illustration: profession-chewer.jpg
 
@@ -75,7 +79,8 @@
 - text: What I should do
   tag: h2
 
-- text: What career should you actually have
+- text: What career should you actually have?
+  link: http://www.buzzfeed.com/Ashleyperez/What-Career-Should-You-Have
 
 - illustration: career-trilogy.jpg
 
@@ -89,21 +94,20 @@
   tag: h2
 
 - text: Which Winner Of “RuPaul’s Drag Race” Are You?
+  link: http://www.buzzfeed.com/floperry/backrolls
 
 - illustration: drag-interior.jpg
 
 - illustration: drag-michelle.jpg
 
 - illustration: drag-song.jpg
-
-- video: https://www.youtube.com/embed/M4d20Tyzlv0?start=53
+  video: https://www.youtube.com/embed/M4d20Tyzlv0?start=53
 
 - illustration: drag-violet.jpg
 
 - text: I am an italian girl in her late teens called Heather. I am a wine taster but want to be a professor and live in England. My spirit drag queen is Violet Chatchki.
 
 - text: Thank you
-
-- video: https://www.youtube.com/embed/_S3YFhlEakg?start=156
+  video: https://www.youtube.com/embed/_S3YFhlEakg?start=156
 
 

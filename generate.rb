@@ -55,6 +55,10 @@ def assembled_slide(slide)
         html += "<iframe width='100%' height='100%' src='#{slide['video']}' frameborder='0' allowFullScreen></iframe>"
     end
 
+    if !slide['link'].nil?
+        html += "<a href='#{slide['link']}'>#{slide['link']}</a>"
+    end
+
     html
 end
 
